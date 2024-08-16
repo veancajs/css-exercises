@@ -7,6 +7,10 @@ body {
   font-family: Roboto, sans-serif;
   display: flex;
   flex-direction: column;
+  /* Commented out `justify-content: space-between;` because `flex: 1;` on 
+     `.content` effectively fills the space between header and footer and 
+     centers the content. Uncomment to ensure header and footer are anchored 
+     to the top and bottom of the viewport. */
   /* justify-content: space-between; */
 }
 
